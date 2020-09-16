@@ -15,7 +15,7 @@ nav {
     padding: 0.5em;
     display: flex;
     align-items: right;
-    background-color: rgba(74, 134, 247, 10);
+    background-color: royalblue;
 }
 
 li {
@@ -37,3 +37,41 @@ ul {
 
 }
 /* fim da navegação*/
+
+/*inicio da primeira sessão do site section sobre*/
+section#sobre {
+    margin-top: -1.3em;
+    background-image: url("/img/lentecam.jpg");
+    background-color: black;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#sobre p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    font-style: bold;
+    font-weight: 700;
+    color: white;
+}
+
+#subtitle1 {
+    color: white;
+    text-align: center;
+    
+}
+section#sobre button{
+
+    margin-top: 9em;
+    margin-left: 45em;
+    padding: 10px;
+    border: transparent;
+    background-color: royalblue;
+    font-family: serif;
+    font-size: 150%;
+    color: white;
+
+}
