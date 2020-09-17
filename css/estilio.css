@@ -44,8 +44,8 @@ ul {
 /*inicio da primeira sessão do site section sobre*/
 section#sobre {
     margin-bottom: 0rem;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     margin-top: -1.3rem;
     background-image: url("/img/lentecam.jpg");
     background-color: black;
@@ -65,15 +65,17 @@ section#sobre p{
 }
 
 #subtitle1 {
+    padding-top: 1em;
     color: white;
     text-align: center;
     
 }
 section#sobre button{
+    font-family: "Khumbh Sans", serif;
     position: relative;
     float: right;
     margin-right: 2rem;
-    margin-top: 13rem;
+    margin-top: 11rem;
     padding: 10px;
     border: transparent;
     background-color: royalblue;
@@ -87,7 +89,7 @@ section#sobre button{
 /*inicio da sec2 section de fotos*/
 section#fotos h2{
     position: relative;
-    font-family: "Khumbh Sans";
+    font-family: "Khumbh Sans", serif;
     font-size: 4em;
     margin-top: 0rem;
     margin-right: -1rem;
@@ -104,30 +106,58 @@ h2{
     text-align: center;
 }
 img{
+    max-width: 30em;
+
+}
+.card {
     position: relative;
     display: inline-flex;
     align-items: right;
     padding-left: 1rem;
     padding-top: 1rem;
-    max-width: 30em;
-
 
 }
 img#casal {
     padding-left: 5rem;
+    margin: 1em;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
+
 }
-img#casal ::hover {
+img#casal:hover {
+    margin: 2.5em;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 img#festa {
-    padding-left: 10rem;
+    float: left;
+    margin-right: 2em;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+img#festa:hover{
+    margin: 2.5em;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 img#paisagen {
-    padding-left: 5rem;
+    padding-left: 5em;
+    margin: 1em;
+    -webkit-transition: all 0.7s ease;
+}
+img#paisagen:hover{
+    margin: 2.5em;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 img#flores {
-    padding-left: 10rem;
+    float: left;
+    -webkit-transition: all 0.7s ease;
 }
+img#flores:hover{
+    margin: 2.5em;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+/*fim de section de fotos*/
