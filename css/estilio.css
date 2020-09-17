@@ -2,6 +2,7 @@ html{
     visibility: hidden;
 }
 body{
+    background-color: rgba(65, 105, 225, 0.5);
     font-family: Arial, Helvetica, sans-serif;
 }
 /*estilo da barra de menu em cima do site*/
@@ -42,6 +43,7 @@ ul {
 
 /*inicio da primeira sessão do site section sobre*/
 section#sobre {
+    margin-bottom: 0rem;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
     margin-top: -1.3rem;
@@ -81,3 +83,51 @@ section#sobre button{
 
 }
 /*fim da sec1 section sobre*/
+
+/*inicio da sec2 section de fotos*/
+section#fotos h2{
+    position: relative;
+    font-family: "Khumbh Sans";
+    font-size: 4em;
+    margin-top: 0rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 2%;
+    background-color: royalblue;
+    color: white;
+}
+section#fotos {
+    padding-top: 1%;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    position: relative;
+    display: inline-flex;
+    align-items: right;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    max-width: 30em;
+
+
+}
+img#casal {
+    padding-left: 5rem;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+img#casal ::hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+img#festa {
+    padding-left: 10rem;
+}
+img#paisagen {
+    padding-left: 5rem;
+}
+img#flores {
+    padding-left: 10rem;
+}
