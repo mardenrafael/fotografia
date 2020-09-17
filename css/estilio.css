@@ -1,3 +1,6 @@
+html{
+    visibility: hidden;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,6 +28,7 @@ li {
     list-style-type: none;
 }
 li a {
+    font-family: "Kumbh Sans", cursive;
     color: white;
     text-decoration: none;
 
@@ -33,14 +37,14 @@ ul {
     position: relative;
     padding: 1.2em;
     margin: 0.5em;
-
-
 }
 /* fim da navegação*/
 
 /*inicio da primeira sessão do site section sobre*/
 section#sobre {
-    margin-top: -1.3em;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    margin-top: -1.3rem;
     background-image: url("/img/lentecam.jpg");
     background-color: black;
     height: 500px;
@@ -64,9 +68,10 @@ section#sobre p{
     
 }
 section#sobre button{
-
-    margin-top: 9em;
-    margin-left: 45em;
+    position: relative;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 13rem;
     padding: 10px;
     border: transparent;
     background-color: royalblue;
@@ -75,3 +80,4 @@ section#sobre button{
     color: white;
 
 }
+/*fim da sec1 section sobre*/
