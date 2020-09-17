@@ -21,7 +21,6 @@ nav {
     align-items: right;
     background-color: royalblue;
 }
-
 li {
     margin: 0em 2em;
     padding: 0;
@@ -40,7 +39,6 @@ ul {
     margin: 0.5em;
 }
 /* fim da navegação*/
-
 /*inicio da primeira sessão do site section sobre*/
 section#sobre {
     margin-bottom: 0rem;
@@ -54,7 +52,6 @@ section#sobre {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 section#sobre p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +60,6 @@ section#sobre p{
     font-weight: 700;
     color: white;
 }
-
 #subtitle1 {
     padding-top: 1em;
     color: white;
@@ -85,7 +81,6 @@ section#sobre button{
 
 }
 /*fim da sec1 section sobre*/
-
 /*inicio da sec2 section de fotos*/
 section#fotos h2{
     position: relative;
@@ -101,13 +96,11 @@ section#fotos h2{
 section#fotos {
     padding-top: 1%;
 }
-
 h2{
     text-align: center;
 }
 img{
     max-width: 30em;
-
 }
 .card {
     position: relative;
@@ -163,7 +156,6 @@ img#flores:hover{
 
 }
 /*fim de section de fotos*/
-
 /*inicio das section serv*/
 section#serv h2{
     position: relative;
@@ -199,3 +191,32 @@ td {
     padding: 1.2em;
 }
 /* fim da section serv*/
+/* inicio da section contato*/
+section#contato h2{
+    text-align: center;
+    position: relative;
+    font-family: "Khumbh Sans", serif;
+    font-size: 4em;
+    margin-top: 0rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 2%;
+    background-color: royalblue;
+    color: white;
+}
+div#cell {
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(65, 105, 225, 0.1);
+    color: white;
+}
+#cellicon {
+    padding: 3%;
+}
+div#email {
+    text-align: center;
+    color: white;
+    padding: 2px;
+    background-color: rgba(65, 105, 225, 0.1);
+}
+/* fim da sectrion contato*/
