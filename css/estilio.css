@@ -144,6 +144,7 @@ img#paisagen {
     padding-left: 5em;
     margin: 1em;
     -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 img#paisagen:hover{
     margin: 2.5em;
@@ -153,6 +154,7 @@ img#paisagen:hover{
 img#flores {
     float: left;
     -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 img#flores:hover{
     margin: 2.5em;
@@ -161,3 +163,39 @@ img#flores:hover{
 
 }
 /*fim de section de fotos*/
+
+/*inicio das section serv*/
+section#serv h2{
+    position: relative;
+    font-family: "Khumbh Sans", serif;
+    font-size: 4em;
+    margin-top: 0rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 2%;
+    background-color: royalblue;
+    color: white;
+}
+div#tabela{
+    position: relative;
+    margin-top: 5em;
+    margin-left: 40%;
+}
+table#tableserv {
+    padding: 20px;
+    text-align: center;
+
+}
+.linhatab {
+    font-size: 1.7rem;
+    font-family: "Khumbh Sans", serif;
+    color: whitesmoke;
+    background-color: rgba(65, 105, 225, 0.6);
+}
+th {
+    padding: 1.2em;
+}
+td {
+    padding: 1.2em;
+}
+/* fim da section serv*/
